@@ -1,0 +1,78 @@
+{
+  "client": {
+    "name": "SUUS Röhlig Logistics",
+    "contact": "Izabela Niedzielska",
+    "logo": "[LOGO]",
+    "colors": {
+      "primary": "#1565C0",
+      "secondary": "#2E7D32",
+      "dark": "#0D47A1"
+    }
+  },
+  "values": [
+    {
+      "id": 1,
+      "name": "CZŁOWIEK",
+      "color": "#2E7D32",
+      "description": "Budowanie relacji i zaufania",
+      "behaviors": [
+        "Słucha aktywnie i rozumie perspektywę innych",
+        "Okazuje autentyczne zainteresowanie rozwojem ludzi",
+        "Tworzy bezpieczne środowisko do dzielenia się pomysłami",
+        "Buduje więzi na bazie zaufania i uczciwości",
+        "Wspiera ludzi w trudnych sytuacjach",
+        "Celebruje sukces i wkład każdej osoby"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ROZWÓJ",
+      "color": "#81C784",
+      "description": "Ciągłe uczenie się i transformacja",
+      "behaviors": [
+        "Szuka nowych wyzwań i możliwości nauki",
+        "Uczy się na błędach i dzieli się lekcjami",
+        "Wspiera i inspiruje do rozwoju innych",
+        "Eksperymentuje i nie boi się porażki",
+        "Adaptuje się szybko do zmian",
+        "Buduje kompetencje dla przyszłości"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "SKUTECZNOŚĆ",
+      "color": "#1565C0",
+      "description": "Osiąganie wyników z inteligencją",
+      "behaviors": [
+        "Definiuje jasne cele i priorytety",
+        "Podejmuje decyzje na podstawie danych",
+        "Wykonuje zobowiązania w terminie",
+        "Optymalizuje procesy i zasoby",
+        "Rozlicza się za wyniki",
+        "Monitoruje postęp i koryguje kurs"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "WSPÓŁPRACA",
+      "color": "#0D47A1",
+      "description": "Siła zespołu i synergii",
+      "behaviors": [
+        "Współpracuje cross-funkcyjnie bez granic",
+        "Dzieli się wiedzą i zasobami",
+        "Rozwiązuje konflikty konstruktywnie",
+        "Wspiera cele zespołu mimo swoich celów",
+        "Buduje kulturę wzajemnego wsparcia",
+        "Komunikuje się jasno i transparentnie"
+      ]
+    }
+  ],
+  "scale": {
+    "0": "Nigdy - zachowanie nie jest widoczne",
+    "1": "Rzadko - zdarza się okazjonalnie",
+    "2": "Czasami - konsekwentnie w niektórych sytuacjach",
+    "3": "Regularnie - konsekwentnie w większości sytuacji",
+    "4": "Zawsze - konsekwentnie i naturalne",
+    "X": "Brak możliwości oceny"
+  }
+}
