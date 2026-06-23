@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function Report({ data, onBack }) {
+export default function Report({ data, onBack, onViewFull }) {
 
   const behaviors = [
     { name: 'Słucha aktywnie', category: 'CZŁOWIEK', yourScore: 4, teamAvg: 3.2 },
@@ -127,7 +127,7 @@ export default function Report({ data, onBack }) {
         </div>
 
         {/* Actions */}
-        <div className="flex gap-4 justify-between">
+        <div className="flex gap-4 justify-between flex-wrap">
           <button
             onClick={() => window.print()}
             className="px-6 py-3 rounded-lg font-medium text-white transition-all"
@@ -135,6 +135,15 @@ export default function Report({ data, onBack }) {
           >
             Pobierz PDF
           </button>
+          {onViewFull && (
+            <button
+              onClick={onViewFull}
+              className="px-6 py-3 rounded-lg font-medium text-white transition-all"
+              style={{ backgroundColor: '#2E7D32' }}
+            >
+              📄 Pełny raport (40 stron)
+            </button>
+          )}
           <button
             onClick={onBack}
             className="px-6 py-3 rounded-lg font-medium bg-gray-200 text-gray-800"

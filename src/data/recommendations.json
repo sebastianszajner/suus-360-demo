@@ -1,0 +1,758 @@
+{
+  "recommendations": {
+    "1": {
+      "name": "Słucha aktywnie i rozumie perspektywę innych",
+      "value": "CZŁOWIEK",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Słuchanie to fundament przywództwa. Brak umiejętności zrozumienia innych osób podważa zaufanie w zespole.",
+        "action": "Zaplanuj 3 spotkania 1:1 w ciągu 2 tygodni. W każdym: słuchaj 70% czasu, pytaj 'co mogę zrobić lepiej jako Twój przełożony?'"
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Słuchasz czasami, ale brakuje konsekwencji. Inne osoby nie czują się zawsze wysłuchane.",
+        "action": "Praktyka aktywnego słuchania: w każdym spotkaniu podsumuj to co usłyszałeś. Poproś feedback co miesiąc od 1 osoby."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Słuchasz w większości sytuacji. Są jednak momenty gdy przerywasz albo myślisz o swojej odpowiedzi.",
+        "action": "Utwórz nawyk: zanim odpowiesz, zrób pauzę 3 sekundy. Parafrazuj to co usłyszałeś zanim zaproponujesz rozwiązanie."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Konsekwentnie słuchasz i rozumiesz perspektywę innych. To buduje zaufanie w zespole.",
+        "action": "Dziel się sposobami na aktywne słuchanie w zespole. Bądź mentorem dla 1-2 osób w tej umiejętności."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Słuchanie jest Twoją naturalną siłą. Ludzie czują się bezpiecznie i wysłuchani w Twojej obecności.",
+        "action": "Zostań ambasadorem tej umiejętności. Proś o przykłady z innych zespołów i rozpowszechniaj best practices."
+      }
+    },
+    "2": {
+      "name": "Okazuje autentyczne zainteresowanie rozwojem ludzi",
+      "value": "CZŁOWIEK",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Rozwój ludzi nie jest Twoją priorytetem. To demotywuje zespół i zwiększa rotację.",
+        "action": "Stwórz plan rozwoju dla każdej osoby w zespole. Zaplanuj rozmowy na dwa tygodnie. Pytaj 'co chcesz osiągnąć w 6 miesięcy?'"
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Myślisz o rozwoju ludzi, ale nie zawsze działasz. Podejście jest chwiejne.",
+        "action": "Ustaw przypomnienie co miesiąc. Poproś każdą osobę o 1 cel rozwojowy. Pomóż znaleźć do niego ścieżkę."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Interesujesz się rozwojem niektórych osób. Niektórym brakuje wsparcia.",
+        "action": "Robienie regularnych check-inów (co dwa tygodnie) o aspiracjach. Łącz plany rozwojowe z biznesowymi potrzebami."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Konsekwentnie wspierasz rozwój swojego zespołu. Ludzie czują że masz dla nich czas.",
+        "action": "Podziel się metodą coaching'u z innymi menedżerami. Pomóż rozwijać tę umiejętność w organizacji."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Rozwój ludzi jest dla Ciebie naturalnie ważny. Twój zespół robi błyskawiczne karriery.",
+        "action": "Mentoruj młodszych menedżerów w obszarze HR development. Stwórz program dla całej organizacji."
+      }
+    },
+    "3": {
+      "name": "Tworzy bezpieczne środowisko do dzielenia się pomysłami",
+      "value": "CZŁOWIEK",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Ludzie obawiają się mówić otwarcie. To zabija innowacyjność i kreatywność.",
+        "action": "Zaproś opinię na temat 'co mogę zmienić aby ludzie czuli się bezpieczniej?' Działaj zgodnie z feedbackiem co tydzień."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Niewiele osób dzieli się pomysłami. Inni obawiają się krytyki.",
+        "action": "Publicznie podziękuj za złe pomysły. Powiedz 'to był odważny pomysł, nauczył nas wiele'. Celebruj eksperymenty."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Niektórzy czują się bezpiecznie, inni się wstrzymują. Środowisko mogłoby być bardziej otwarte.",
+        "action": "Zainicjuj 'poranek pomysłów' co dwa tygodnie. Bez cenzury. Każdy pomysł jest OK na tym etapie."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Większość zespołu czuje się bezpiecznie mówiąc otwarcie. To generuje dobre pomysły.",
+        "action": "Dokumentuj co się sprawdza. Pokaż innym menedżerom jak to osiągnąłeś."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Twój zespół mówi otwarcie nawet o trudnych sprawach. To tworzy innowacyjną kulturę.",
+        "action": "Zostań liderem zmian w całej organizacji. Pokaż jak tworzyć psychologiczne bezpieczeństwo."
+      }
+    },
+    "4": {
+      "name": "Buduje więzi na bazie zaufania i uczciwości",
+      "value": "CZŁOWIEK",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Brakuje zaufania między Tobą a zespołem. To uniemożliwia efektywną pracę.",
+        "action": "Bądź bardziej przejrzysty o swoich decyzjach. Wyjaśniaj 'dlaczego' za każdą decyzją. Przyznaj się do błędów."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Zaufanie jest niestabilne. Czasami jesteś szczery, czasami nie.",
+        "action": "Stwórz zasadę: najpierw informuj zespół, potem resztę organizacji. Dotrzymuj obietnic bez wyjątków."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Zaufanie jest średnie. Większość osób Cię ufa, ale nie wszyscy.",
+        "action": "Podejmij się projektu z osobą która najmniej Ci ufa. Pokaż że jesteś godny zaufania poprzez działania."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Zespół generalnie Ci ufa. Więzi są silne.",
+        "action": "Bądź mentorem dla osób które budują zaufanie wolniej. Pokażą jak To robisz."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Jesteś symbolem godności zaufania. Ludzie widzą w Tobie integrację i uczciwość.",
+        "action": "Wspomóż kulturę etyczną w organizacji. Bądź głosem dla trudnych rozmów."
+      }
+    },
+    "5": {
+      "name": "Wspiera ludzi w trudnych sytuacjach",
+      "value": "CZŁOWIEK",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Ludzie nie czują Twojego wsparcia w kryzysie. To powoduje izolację i wysoką rotację.",
+        "action": "Gdy następny kryzys się zdarzy: poproś co potrzeba. Offer konkretną pomoc (czas, zasoby, rozwój)."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Wspierasz czasami, ale brakuje konsekwencji. Niektórzy czują się porzuceni.",
+        "action": "Ustaw reminder co miesiąc: 'czy ktoś w moim zespole ma trudny czas?'. Poproś o sygnały."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Wspierasz w większości, ale mogłoby być więcej empatii i działań.",
+        "action": "Kiedy osoba ma trudny czas: sprawdzaj 2x w tygodniu. Pytaj 'jak się masz?' nie 'gotowe już?'"
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Ludzie wiedzą że mogą liczyć na Ciebie w trudzie. To buduje lojalność.",
+        "action": "Dziel się swoimi doświadczeniami trudnych czasów. Pokaż że każdy ma kryzys, to normalne."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Jesteś oparciem dla zespołu. Ludzie czują się bezpiecznie w trudzie.",
+        "action": "Bądź resource dla całej organizacji. Pokaż innym jak wspierać w kryzysie."
+      }
+    },
+    "6": {
+      "name": "Celebruje sukces i wkład każdej osoby",
+      "value": "CZŁOWIEK",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Nie celebrujesz sukcesów. Ludzie czują się niedoceniani.",
+        "action": "Zacznij co tydzień: publicznie podziękuj za 1 konkretny wkład (imię, czym się wyróżnił, dlaczego ważne)."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Czasami doceniasz, ale nie systematycznie. Czuć braki.",
+        "action": "Ustaw remind co piątek: jakie sukcesy były? Podziel się w team standup. Podziękuj osobiście każdemu."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Doceniasz w większości. Mogłoby być więcej celebracji.",
+        "action": "Dodaj 5 minut co spotkanie na uznanie. Każdy powinien raz na 2 tygodnie coś usłyszeć."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Konsekwentnie celebrujesz. Zespół czuje się doceniany.",
+        "action": "Stwórz program Recognition. Pozwól zespołowi nominować друг друга. Nagrodź publicznie."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Celebracja to naturalna część Twojej kultury. Ludzie czują się wartościowi.",
+        "action": "Bądź mentorem dla kultury Recognition w organizacji. Pokaż jak to wbudować w system."
+      }
+    },
+    "7": {
+      "name": "Wykazuje empatię w trudnych rozmowach",
+      "value": "CZŁOWIEK",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "W trudnych rozmowach brakuje empatii. Ludzie czują się ranieni, a problemy się pogarszają.",
+        "action": "Przed trudną rozmową: przygotuj się. Zadaj pytanie 'jak to się czuje z Twojej strony?' i słuchaj."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Próbujesz być empatyczny, ale czasami to nie wychodzi. Rozmowy są napięte.",
+        "action": "Przygotowywanie do trudnych rozmów: napisz co chcesz osiągnąć. Nie 'wygrać', a 'zrozumieć i wspólnie rozwiązać'."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Empatia jest widoczna, ale mogłoby być więcej. Rozmowy są profesjonalne ale chłodne.",
+        "action": "Zamiast 'musisz to zmienić', spróbuj 'rozumiem że to trudne, jak mogę Ci pomóc?'"
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "W trudnych rozmowach pokazujesz empatię. Ludzie czują że masz dla nich czas.",
+        "action": "Dziel się naukami z trudnych rozmów. Pokaż co się sprawdza."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Trudne rozmowy są dla Ciebie szansą na budowanie relacji. Ludzie czują się zrozumiani.",
+        "action": "Bądź coachem dla menedżerów. Pokaż jak prowadzić trudne rozmowy z empatią."
+      }
+    },
+    "8": {
+      "name": "Szuka nowych wyzwań i możliwości nauki",
+      "value": "ROZWÓJ",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Nie szukasz wyzwań. Tkwisz w starych schematach. To ogranicza Twój potencjał.",
+        "action": "Zidentyfikuj 1 obszar gdzie chcesz się nauczyć. Zapisz się na kurs lub znajdź mentora w ciągu miesiąca."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Czasami szukasz wyzwań, ale nie konsekwentnie. Konieczny jest plan rozwojowy.",
+        "action": "Napisz plan na 90 dni: 3 wyzwania które chcesz podjąć. 1 kurs, 1 mentor, 1 projekt cross-funkcyjny."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Szukasz wyzwań czasami. Plan byłby pomocny do konsekwencji.",
+        "action": "Ustaw co miesiąc 1 nowe wyzwanie. Może być małe - nowa technologia, nowa branża, nowy zespół."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Aktywnie szukasz wyzwań. To przyspiesza Twój rozwój.",
+        "action": "Weź udział w programie mentorskim. Bądź mentorem dla kogoś kto szuka wyzwań."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Poszukiwanie wyzwań to dla Ciebie naturalne. Ciągle się rozwijasz.",
+        "action": "Bądź liderem transformacji. Pokaż innym jak wychodzić ze strefy komfortu."
+      }
+    },
+    "9": {
+      "name": "Uczy się na błędach i dzieli się lekcjami",
+      "value": "ROZWÓJ",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Nie uczysz się na błędach. Powtarzasz je. To blokuje wzrost.",
+        "action": "Ostatni błąd: napisz co się stało, dlaczego, i co zrobisz inaczej. Podziel się z zespołem."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Uczysz się powoli. Czasami powtarzasz błędy.",
+        "action": "Po każdym nieudanym projekcie/decyzji: retrospektywa. Czego się nauczyłeś? Jak to zmienisz?"
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Uczysz się na błędach. Czasami brakuje Ci dzielenia się naukami.",
+        "action": "Stwórz 'Lekcje z pola' - comiesięczna wiadomość o czym się nauczyłeś z błędu."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Uczysz się szybko i dzielisz się naukami. Zespół uczy się z Twoich błędów.",
+        "action": "Bądź mentorem dla kultury uczenia się. Pokaż innym jak transmutować błędy na wiedzę."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Błędy są dla Ciebie szansą na naukę. Dzielisz się mądrością z całą organizacją.",
+        "action": "Stwórz program Knowledge Sharing. Zbieraj lekcje z całego zespołu."
+      }
+    },
+    "10": {
+      "name": "Wspiera i inspiruje do rozwoju innych",
+      "value": "ROZWÓJ",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Nie wspierasz czyjegośkolwiek rozwoju. Ludzie nie mają mentora.",
+        "action": "Wybierz 1 osobę. Zaproponuj 'chciałbym być Twoim mentorem przez 3 miesiące'. Spotykajcie się co dwa tygodnie."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Wspierasz niektórych. Inni czują się pominięci.",
+        "action": "Stwórz plan: z każdą osobą w zespole: 'co chcesz osiągnąć?' Pomóż znaleźć ścieżkę."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Wspierasz w większości. Mogłoby być bardziej inspirujące.",
+        "action": "Dziel się swoimi wzorcami. Opowiadaj o ludziach którzy Ciebie inspirują. Pokaż jak się uczą."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Inspirujesz ludzi do rozwoju. Widzą w Tobie wzór.",
+        "action": "Bądź mentorem dla innych menedżerów w zakresie HR development."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Inspiracja do rozwoju promieniuje od Ciebie. Ludzie rosnąć wokół Ciebie.",
+        "action": "Stwórz Program Mentorski dla całej organizacji. Bądź jego architektem."
+      }
+    },
+    "11": {
+      "name": "Eksperymentuje i nie boi się porażki",
+      "value": "ROZWÓJ",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Boisz się ryzyka. Nie eksperymentujesz. To ogranicza innowacyjność.",
+        "action": "Zaproponuj 1 mały eksperyment w ciągu miesiąca. Może się nie udać - to OK. Cel to nauczenie się."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Czasami się odważasz, ale strach przed porażką jest widoczny.",
+        "action": "Przed eksperymentem: jasno zdefiniuj sukces. Jeśli będzie porażka, to czesć planu nauki."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Eksperymentujesz. Czasami brakuje Ci odwagi.",
+        "action": "Ustaw quarterly OKR: 1 eksperyment z wysokim ryzykiem. Support zespołu jeśli będzie porażka."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Eksperymentujesz konsekwentnie. Porażki traktujesz jako lekcje.",
+        "action": "Bądź mentorem dla zespołu w eksperymentowaniu. Pokaż jak robić to bezpiecznie."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Eksperymentowanie to Twoja DNA. Innowujesz bez strachu.",
+        "action": "Bądź Culture Champion dla eksperymentów w organizacji. Twórz safe space do ryzyka."
+      }
+    },
+    "12": {
+      "name": "Adaptuje się szybko do zmian",
+      "value": "ROZWÓJ",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Rezystujesz zmianom. To spowalnia organizację.",
+        "action": "Następna zmiana: zamiast 'to nie zadziała', spróbuj 'ok, jak my to wdrażamy?' Działaj z energią."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Adaptacja jest powolna. Inni czekają na Ciebie.",
+        "action": "Ustaw reminder: zmiany to szanse. W każdej zmianie: co mogę się nauczyć? Co mogę zmienić?"
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Adaptacja jest OK. Mogłoby być szybciej.",
+        "action": "Ucz się szybko. Czytaj o zmianach zanim się znowu staną. Bądź forward-looking."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Adaptujesz się szybko. Ludzie czują że jesteś zakotwiczony.",
+        "action": "Bądź liderem w zmianach. Pokaż zespołowi jak to robisz."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Zmiany cię energizują. Szybko widzisz okazje.",
+        "action": "Bądź zmianiarą w organizacji. Poprowadź transformacyjny projekt."
+      }
+    },
+    "13": {
+      "name": "Buduje kompetencje dla przyszłości",
+      "value": "ROZWÓJ",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Nie myślisz o kompetencjach przyszłości. Zespół będzie nieaktualna za 2 lata.",
+        "action": "Przeanalizuj: jakie kompetencje będą potrzebne za 2 lata? Stwórz plan upskillingu dla zespołu."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Czasami myślisz o przyszłości. Plan byłby pomocny.",
+        "action": "Quarterly: sprawdzaj trendy w Twojej branży. Zidentyfikuj 2-3 kompetencje które będą ważne."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Myślisz o przyszłości. Mogłoby być bardziej strategicznie.",
+        "action": "Napisz 3-letni plan rozwoju kompetencji. Dla siebie i zespołu. Align z biznesem."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Konsekwentnie budujesz kompetencje. Zespół jest gotowa.",
+        "action": "Bądź mentorem w zakresie future-proofing. Pokaż innym jak się przygotować."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Budowanie kompetencji jest dla Ciebie strategiczne. Twój zespół jest zawsze do przodu.",
+        "action": "Stwórz Program Transformacji Cyfrowej. Bądź jego architektem."
+      }
+    },
+    "14": {
+      "name": "Definiuje jasne cele i priorytety",
+      "value": "SKUTECZNOŚĆ",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Cele są rozmyte. Zespół nie wie co robić. Rezultaty są chaotyczne.",
+        "action": "Na następne spotkanie: napisz 3 jasne cele na quarter. Dla każdego: sukces = ? Podziel się z zespołem."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Cele są czasami jasne. Czasami rozmyte. To powoduje dezorientację.",
+        "action": "Każde spotkanie: 'dzisiaj robimy to i to'. Dla każdego zadania: czemu? Co się liczy?"
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Cele są zazwyczaj jasne. Czasami brakuje priorytyzacji.",
+        "action": "Ustaw top 3 priorytety. Wszystko inne to second tier. Komunikuj jasno co się zmienia."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Cele są jasne i spójne. Zespół wie dokąd idzie.",
+        "action": "Bądź mentorem dla other leaders w goal-setting. Pokażą jak to robisz."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Cele są krystalicznie jasne. Zespół mobilizuje się wokół nich.",
+        "action": "Stwórz metodę Goal-Setting dla całej organizacji. Bądź jej architektem."
+      }
+    },
+    "15": {
+      "name": "Podejmuje decyzje na podstawie danych",
+      "value": "SKUTECZNOŚĆ",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Decyzje są oparte na intuicji. Brakuje danych. To prowadzi do błędów.",
+        "action": "Następna decyzja: zbierz dane. Czym więcej faktów, tym lepsza decyzja. Nawet 'miękkie' dane (feedback) są ważne."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Czasami szukasz danych. Czasami działasz na intuicji.",
+        "action": "Ustaw regułę: decyzje powyżej X wartości wymagają danych. Zbuduj numer dla zespołu."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Używasz danych w większości. Mogłoby być bardziej rigorystycznie.",
+        "action": "Dla każdego OKR: jakie metryki będziesz śledzić? Tygodniowo czy tygodniowo, nie na koniec."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Decyzje są data-driven. Zespół uczy się od Ciebie tego podejścia.",
+        "action": "Bądź mentorem. Pokaż zespołowi gdzie znaleźć dane i jak je interpretować."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Jesteś mistrzem data-driven decision making. To daje przewagę konkurencyjną.",
+        "action": "Stwórz культurę analytics. Pokaż organizacji jak używać danych."
+      }
+    },
+    "16": {
+      "name": "Wykonuje zobowiązania w terminie",
+      "value": "SKUTECZNOŚĆ",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Nie dotrzymujesz terminów. Zaufanie spada. Wyniki cierpią.",
+        "action": "Od dzisiaj: każde zobowiązanie w pismu z datą. Wyzwij siebie na tym. Dotrzymaj."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Dotrzymujesz czasami. Czasami się opóźniasz.",
+        "action": "Bądź bardziej realista w planowaniu. Dodaj buffer 20%. Lepiej być przed terminem niż po."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Dotrzymujesz większości terminów. Czasami są opóźnienia.",
+        "action": "Gdy widzisz że termin będzie problem: daj znać wcześniej. Proaktywna komunikacja."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Konsekwentnie dotrzymujesz. Ludzie Ci ufają.",
+        "action": "Bądź modelą. Pokaż innym jak planować i dotrzymywać."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Jesteś symbo wiarygodności. Zawsze przed czasem.",
+        "action": "Bądź liderem operacyjnym. Pokaż organizacji jak to robić na skalę."
+      }
+    },
+    "17": {
+      "name": "Optymalizuje procesy i zasoby",
+      "value": "SKUTECZNOŚĆ",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Procesy są nieefektywne. Zasoby są marnowane.",
+        "action": "Zidentyfikuj 1 proces który trwa za długo. Mapuj: kto, co, ile czasu? Szukaj bottleneck'ów."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Czasami optymalizujesz. Brakuje konsekwencji.",
+        "action": "Quarterly: przyjrzyj się top 3 procesom. Są szybkie? Czy możesz je przyspieszyć o 20%?"
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Szukasz optymalizacji. Mogłoby być bardziej systematycznie.",
+        "action": "Ustaw monthly check: czy jest coś co zajmuje zbyt długo? Co mogę zautomatyzować?"
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Konsekwentnie optymalizujesz. Zespół jest efektywna.",
+        "action": "Bądź Operations Champion. Pokaż innym jak to robić."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Optymalizacja jest Twoją DNA. Operacyjna doskonałość to standard.",
+        "action": "Stwórz Continuous Improvement Program dla całej organizacji."
+      }
+    },
+    "18": {
+      "name": "Rozlicza się za wyniki",
+      "value": "SKUTECZNOŚĆ",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Nie rozliczasz się za wyniki. Liderem jest unikanie odpowiedzialności.",
+        "action": "Zaproponuj: publiczne OKRy. Ja będę się za nie rozliczać. Pokażę co się stało: dobrze czy źle."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Czasami się rozliczasz. Czasami szukasz wymówek.",
+        "action": "Ustaw regułę: nigdy nie winić systemu. Zawsze pytaj: co JA mogę zrobić inaczej?"
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Rozliczasz się w większości. Czasami brakuje konsekwencji.",
+        "action": "Gdy coś się nie uda: pokaż nauczkę. Co się nauczyłeś? Co zmienisz?"
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Zawsze rozliczasz się. Ludzie czują Twoją odpowiedzialność.",
+        "action": "Bądź mentorem. Pokaż innym jak brać odpowiedzialność bez defensywności."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Odpowiedzialność jest u Ciebie naturalna. To buduje zaufanie.",
+        "action": "Bądź liderem kulturze accountability. Stwórz psychologiczne bezpieczeństwo wokół błędów."
+      }
+    },
+    "19": {
+      "name": "Monitoruje postęp i koryguje kurs",
+      "value": "SKUTECZNOŚĆ",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Nie monitorujesz postępu. Dowiadujesz się za późno gdy coś pójdzie nie tak.",
+        "action": "Od teraz: weekly check-in na progresie. Dla każdego OKR: gdzie jesteśmy? Czy jesteśmy on-track?"
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Monitorujesz czasami. Reagujesz powoli na problemy.",
+        "action": "Stwórz dashboard. Proste: Zielony=OK, Żółty=Problem, Czerwony=Kryzys. Sprawdzaj go 2x w tygodniu."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Monitorujesz. Czasami spóźniasz się z reaction.",
+        "action": "Ustal: Jeśli coś = Żółty, działam tego dnia. Nie czekam na meeting."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Monitorujesz konsekwentnie i reagujesz szybko. On-track rate jest wysoki.",
+        "action": "Bądź mentorem. Pokaż innym jak stawiać early warning systemy."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Monitoring i adaptacja to Twoja supermoc. Zawsze jesteś ahead.",
+        "action": "Stwórz systemy monitorowania dla całej organizacji."
+      }
+    },
+    "20": {
+      "name": "Współpracuje cross-funkcyjnie bez granic",
+      "value": "WSPÓŁPRACA",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Silosy. Nie współpracu jejesz między zespołami. To spowalnia organizację.",
+        "action": "Zaproponuj projekt cross-funkcyjny z sąsiednią funkcją. Zacznij od relacji, potem współpraca."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Czasami współpracu jejesz. Czasami chronisz swoje terytory.",
+        "action": "Ustaw konto: co miesiąc 1 spotkanie z inną funkcją. Pytaj 'jak mogę Ci pomagać?'"
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Współpracu jejesz. Mogłoby być bardziej otwarte.",
+        "action": "Kiedy inny zespół ma problem: zapytaj 'jak mogę pomóc?' zanim będą prosić."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Konsekwentnie współpracu jejesz. Brak granic między zespołami.",
+        "action": "Bądź liderem collaborative culture. Pokaż innym jak to robić."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Współpraca bez granic to Twoja standardowe. Organizacja jest seamless.",
+        "action": "Stwórz kultur Matrix Leadership. Bądź jej architektem."
+      }
+    },
+    "21": {
+      "name": "Dzieli się wiedzą i zasobami",
+      "value": "WSPÓŁPRACA",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Hodujesz wiedzę. Nie dzielisz się zasobami. To tworzy zależności.",
+        "action": "Zaproponuj: dokumentuj wiedzę. Podziel się dokumentami z organizacją. Zrób knowledge-sharing session."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Czasami dzielisz się. Czasami ukrywasz.",
+        "action": "Ustaw regułę: każda lekcja jest dla całej organizacji. Documenting as you go."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Dzielisz się w większości. Czasami brakuje konsekwencji.",
+        "action": "Stwórz Knowledge Repository. Jeśli nauczyłeś się czegoś interesującego, dodaj tam."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Konsekwentnie dzielisz się wiedzą. Organizacja uczy się od Ciebie.",
+        "action": "Bądź Knowledge Champion. Stwórz kultury sharing."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Sharing knowledge to Twoja natura. Wszyscy czerpią z Twojej wiedzy.",
+        "action": "Stwórz Knowledge Management System dla całej organizacji."
+      }
+    },
+    "22": {
+      "name": "Rozwiązuje konflikty konstruktywnie",
+      "value": "WSPÓŁPRACA",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Konflikty się zaogniają. Ludzie się nie rozumieją. To truje atmosferę.",
+        "action": "Następny konflikt: zamiast wybierać stronę, spytaj każdą: co Tobie chodzi? Szukaj wspólnego gruntu."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Próbujesz rozwiązywać konflikty. Czasami brakuje umiejętności.",
+        "action": "Uczy się negotiation. Czytaj o active listening. Medytacja: zanim weźmiesz udział w konflikcie."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Rozwiązujesz konflikty. Czasami mogłoby być bardziej konstruktywne.",
+        "action": "Kiedy konflikt się pojawia: zrób zebranie. Każdy mówi punkt widzenia. Szukajcie rozwiązania razem."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Konflikty rozwiązujesz konstruktywnie. Ludzie czują że słuchasz.",
+        "action": "Bądź mediator. Pokaż innym jak to robić."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Konflikty zamieniasz w okazje. Ludzie uczą się od Ciebie.",
+        "action": "Bądź Executive Coach dla trudnych sytuacji. Stwórz konflikt resolution program."
+      }
+    },
+    "23": {
+      "name": "Wspiera cele zespołu mimo swoich celów",
+      "value": "WSPÓŁPRACA",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Dbasz tylko o swoje metryki. Zespół czuje się porzucona.",
+        "action": "Przepisz swoje cele: 50% team success, 50% own. Działaj zgodnie z tym ratio."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Czasami wspieras zespół. Czasami priorytetujesz siebie.",
+        "action": "Każde spotkanie z szefem: raportuj o tym czy dostarcz dla zespołu co najmniej co dla siebie."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Wspieras zespół w większości. Czasami brakuje poświęcenia.",
+        "action": "Bądź mentorem dla zespołu. Poświęć 20% czasu na wsparcie ich sukcesu."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Konsekwentnie wspieras zespół. Ludzie czują że grasz dla nich.",
+        "action": "Bądź modelą. Pokaż innym liderom co to znaczy."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Zespołowy sukces jest dla Ciebie naturalnie ważny. Wszyscy rosnąć.",
+        "action": "Bądź liderem kultury zespołowej. Stwórz systemy do collective success."
+      }
+    },
+    "24": {
+      "name": "Buduje kulturę wzajemnego wsparcia",
+      "value": "WSPÓŁPRACA",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Kultura konkurencji. Ludzie się nie wspierają. To toksyczne.",
+        "action": "Zaproponuj: co miesiąc peer recognition. Każdy nominuje kogoś kto go wspierał. Celebruj publicznie."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Czasami widzę wsparcie. Czasami konkurencję.",
+        "action": "Ustaw regułę: gdy ktoś zdobywa sukces, wszyscy gratulują. Jeśli ktoś ma problem, wszyscy pomagają."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Wsparcie jest czasami widoczne. Mogłoby być bardziej systemowe.",
+        "action": "Stwórz buddy system. Każdy ma partnera. Spotykają się co dwa tygodnie. Pytają 'jak się masz?'"
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Kultura wsparcia jest widoczna. Ludzie się czują bezpiecznie.",
+        "action": "Bądź mentorem dla innych zespołów w budowaniu kultury wsparcia."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Wzajemne wsparcie to DNA Twojego zespołu. Wszyscy się wspierają.",
+        "action": "Bądź architektem kulturze organizacyjnej. Rozpowszechniaj model."
+      }
+    },
+    "25": {
+      "name": "Komunikuje się jasno i transparentnie",
+      "value": "WSPÓŁPRACA",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Komunikacja jest mglista. Ludzie nie wiem o co chodzi.",
+        "action": "Od teraz: każda wiadomość musi mieć: Co? Dlaczego? Kiedy? Poproś feedback czy jest jasne."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Czasami jasna, czasami mglista. Ludzie są zdezorientowani.",
+        "action": "Ustaw regułę: przed każdym komunikatem pytaj się czy to jest jasne. Czytaj na głos."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Komunikacja jest zazwyczaj jasna. Czasami brakuje szczegółów.",
+        "action": "Dodaj transparency: kiedy podejmiesz decyzję, wyjaśnij jej 'dlaczego'. Ludzie będą bardzie supportive."
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Komunikacja jest jasna i transparentna. Ludzie czują się informowani.",
+        "action": "Bądź modelą komunikacji. Pokaż innym jak to robić."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Komunikacja to Twoja supermoc. Wszyscy czują się informed i aligned.",
+        "action": "Stwórz Communication Framework dla całej organizacji."
+      }
+    },
+    "26": {
+      "name": "Włącza różne punkty widzenia w decyzje",
+      "value": "WSPÓŁPRACA",
+      "0": {
+        "level": "Obszar krytyczny",
+        "text": "Podejmujesz decyzje sam. Nie słuchasz opinii. Decyzje są słabe.",
+        "action": "Następna decyzja: zbierz opinię od 3 różnych osób. Jakie perspektywy zostały pominięte? Uwzględnij je."
+      },
+      "1": {
+        "level": "Wymaga wzmocnienia",
+        "text": "Czasami słuchasz opinii. Nie zawsze ją bierzesz.",
+        "action": "Ustaw regułę: zawsze pytaj o opinię przed decyzją. Jeśli ją odrzucisz, wyjaśnij dlaczego."
+      },
+      "2": {
+        "level": "W normie",
+        "text": "Słuchasz opinii w większości. Mogłoby być bardziej aktywnie.",
+        "action": "Zamiast czekać aż ktoś powie opinię, pytaj bezpośrednio: 'co myślisz o tym?'"
+      },
+      "3": {
+        "level": "Mocna strona",
+        "text": "Konsekwentnie włączasz perspektywy. Decyzje są lepsze.",
+        "action": "Bądź mentorem dla collaborative decision-making. Pokaż innym jak to robić."
+      },
+      "4": {
+        "level": "Wzorcowe",
+        "text": "Różne perspektywy to siła Twoich decyzji. Wszyscy czują że mają głos.",
+        "action": "Stwórz Culture of Inclusion. Bądź liderem diversity w decision-making."
+      }
+    }
+  }
+}
