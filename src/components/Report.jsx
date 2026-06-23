@@ -1,55 +1,6 @@
-import { useState, useEffect } from 'react'
-import { Chart as ChartJS, RadarController, RadarElement, PointElement, LineElement, Filler, Legend, Title, Tooltip } from 'chart.js'
-import { Radar } from 'react-chartjs-2'
-
-ChartJS.register(RadarController, RadarElement, PointElement, LineElement, Filler, Legend, Title, Tooltip)
+import { useState } from 'react'
 
 export default function Report({ data, onBack }) {
-  const [radarData, setRadarData] = useState(null)
-
-  useEffect(() => {
-    // Mock data — średnie oceny per wartość
-    const mockAverages = [3.2, 3.5, 3.0, 3.3]
-    const mockYourScores = [3.8, 3.4, 3.6, 3.2]
-
-    setRadarData({
-      labels: ['CZŁOWIEK', 'ROZWÓJ', 'SKUTECZNOŚĆ', 'WSPÓŁPRACA'],
-      datasets: [
-        {
-          label: 'Twoja średnia',
-          data: mockYourScores,
-          borderColor: '#2E7D32',
-          backgroundColor: 'rgba(46, 125, 50, 0.1)',
-          borderWidth: 2,
-        },
-        {
-          label: 'Średnia zespołu',
-          data: mockAverages,
-          borderColor: '#1565C0',
-          backgroundColor: 'rgba(21, 101, 192, 0.1)',
-          borderWidth: 2,
-        },
-      ],
-    })
-  }, [])
-
-  const chartOptions = {
-    responsive: true,
-    scales: {
-      r: {
-        min: 0,
-        max: 4,
-        ticks: {
-          stepSize: 1,
-        },
-      },
-    },
-    plugins: {
-      legend: {
-        position: 'bottom',
-      },
-    },
-  }
 
   const behaviors = [
     { name: 'Słucha aktywnie', category: 'CZŁOWIEK', yourScore: 4, teamAvg: 3.2 },
@@ -81,18 +32,23 @@ export default function Report({ data, onBack }) {
           </p>
         </div>
 
-        {/* Radar Chart */}
+        {/* Profile Overview Chart */}
         <div className="bg-white rounded-lg p-8 mb-8 shadow-sm">
           <h2 className="text-2xl font-bold mb-6" style={{ color: '#333' }}>
             Przegląd profilu
           </h2>
-          {radarData && (
-            <div style={{ position: 'relative', height: '300px' }}>
-              <Radar data={radarData} options={chartOptions} />
-            </div>
-          )}
-          <p className="text-sm text-gray-600 mt-6">
-            Zielony = Twoja średnia | Niebieski = Średnia zespołu
+          <div className="grid grid-cols-4 gap-4 mb-6">
+            {['CZŁOWIEK (3.8)', 'ROZWÓJ (3.4)', 'SKUTECZNOŚĆ (3.6)', 'WSPÓŁPRACA (3.2)'].map((label, i) => (
+              <div key={i} className="p-4 rounded-lg bg-gradient-to-b" style={{ background: `linear-gradient(to bottom, rgba(46,125,50,0.1), rgba(46,125,50,0.05))` }}>
+                <p className="text-sm font-medium mb-2" style={{ color: '#333' }}>{label}</p>
+                <div className="w-full bg-gray-300 rounded-full h-3">
+                  <div className="h-3 rounded-full" style={{ width: `${(parseFloat(label.match(/\d\.\d/)[0]) / 4) * 100}%`, backgroundColor: '#2E7D32' }}></div>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="text-sm text-gray-600">
+            Zielony = Twoja średnia | Średnia zespołu: 3.25
           </p>
         </div>
 
