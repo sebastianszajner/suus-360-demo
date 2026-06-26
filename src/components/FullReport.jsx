@@ -374,44 +374,54 @@ export default function FullReport({ data, onBack }) {
         ))}
 
         {/* PAGES 13-16: GŁOSY ZESPOŁU */}
-        {Array.from({ length: 4 }).map((_, pageIdx) => (
-          <div key={pageIdx} style={{ pageBreakAfter: 'always' }} className="pb-8 mb-8 print:page-break-after">
-            <p className="text-sm text-gray-500 mb-4">STRONA {13 + pageIdx}</p>
-            <h2 className="text-3xl font-bold mb-8" style={{ color: '#333' }}>
-              Co mówią Twoi ludzie
-            </h2>
+        {Array.from({ length: 4 }).map((_, pageIdx) => {
+          const q27Comments = data?.openQuestions?.q27
+            ? data.openQuestions.q27.split('\n').filter(l => l.trim()).slice(pageIdx * 3, (pageIdx + 1) * 3)
+            : ['Zawsze słuchasz naszych perspektyw', 'Wspierasz naszą karierę i wzrost', 'Przejrzyste komunikacje'][pageIdx] ? ['Zawsze słuchasz naszych perspektyw', 'Wspierasz naszą karierę i wzrost', 'Przejrzyste komunikacje'].slice(pageIdx, pageIdx + 1) : []
 
-            <div className="space-y-4">
-              {[
-                { sentiment: 'positive', icon: '✓', title: 'Co robisz dobrze', comments: [
-                  'Zawsze słuchasz naszych perspektyw',
-                  'Wspierasz naszą karierę i wzrost',
-                  'Przejrzyste komunikacje — wiemy gdzie stoimy'
-                ]},
-                { sentiment: 'constructive', icon: '→', title: 'Obszary do pracy', comments: [
-                  'Czasami trudno dostosować się szybko do zmian',
-                  'Mogłbyś bardziej delegować i ufać',
-                  'Brak czasami czasu na indywidualne rozmowy'
-                ]}
-              ].map((section, idx) => (
-                <div key={idx}>
-                  <p className="font-semibold mb-3 text-lg">{section.title}</p>
-                  <div className="space-y-2">
-                    {section.comments.map((comment, cIdx) => (
-                      <div
-                        key={cIdx}
-                        className="rounded-lg p-4"
-                        style={{ backgroundColor: section.sentiment === 'positive' ? '#E8F5E922' : '#E3F2FD22' }}
-                      >
-                        <p className="text-sm text-gray-700">"{comment}"</p>
-                      </div>
-                    ))}
+          const q28Comments = data?.openQuestions?.q28
+            ? data.openQuestions.q28.split('\n').filter(l => l.trim()).slice(pageIdx * 3, (pageIdx + 1) * 3)
+            : ['Czasami trudno dostosować się szybko do zmian', 'Mogłbyś bardziej delegować i ufać'][pageIdx] ? ['Czasami trudno dostosować się szybko do zmian', 'Mogłbyś bardziej delegować i ufać'].slice(pageIdx, pageIdx + 1) : []
+
+          return (
+            <div key={pageIdx} style={{ pageBreakAfter: 'always' }} className="pb-8 mb-8 print:page-break-after">
+              <p className="text-sm text-gray-500 mb-4">STRONA {13 + pageIdx}</p>
+              <h2 className="text-3xl font-bold mb-8" style={{ color: '#333' }}>
+                Co mówią Twoi ludzie
+              </h2>
+
+              <div className="space-y-4">
+                {[
+                  { sentiment: 'positive', title: 'Co robisz dobrze', comments: q27Comments.length > 0 ? q27Comments : [
+                    'Zawsze słuchasz naszych perspektyw',
+                    'Wspierasz naszą karierę i wzrost',
+                    'Przejrzyste komunikacje — wiemy gdzie stoimy'
+                  ]},
+                  { sentiment: 'constructive', title: 'Obszary do pracy', comments: q28Comments.length > 0 ? q28Comments : [
+                    'Czasami trudno dostosować się szybko do zmian',
+                    'Mogłbyś bardziej delegować i ufać',
+                    'Brak czasami czasu na indywidualne rozmowy'
+                  ]}
+                ].map((section, idx) => (
+                  <div key={idx}>
+                    <p className="font-semibold mb-3 text-lg">{section.title}</p>
+                    <div className="space-y-2">
+                      {section.comments.map((comment, cIdx) => (
+                        <div
+                          key={cIdx}
+                          className="rounded-lg p-4"
+                          style={{ backgroundColor: section.sentiment === 'positive' ? '#E8F5E922' : '#E3F2FD22' }}
+                        >
+                          <p className="text-sm text-gray-700">"{comment}"</p>
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
+          )
+        })}
 
         {/* PAGES 17-19: METODOLOGIA */}
         <div style={{ pageBreakAfter: 'always' }} className="pb-8 mb-8 print:page-break-after">
