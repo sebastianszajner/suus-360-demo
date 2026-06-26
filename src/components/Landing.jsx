@@ -3,20 +3,22 @@ import { BarChart3, ClipboardList, Settings } from 'lucide-react'
 export default function Landing({ onNavigate }) {
   return (
     <div className="min-h-screen text-white flex flex-col" style={{
-      background: 'linear-gradient(135deg, #0D47A1 0%, #1a237e 100%)'
+      background: 'linear-gradient(135deg, #0D47A1 0%, #1a237e 100%)',
+      minHeight: '100vh'
     }}>
       {/* Main Content */}
-      <div className="flex-1 px-4 py-12 sm:py-16 flex items-center justify-center">
+      <div className="flex-1 px-4 py-8 sm:py-12 flex items-center justify-center">
         <div className="max-w-3xl w-full">
           {/* Logo Section */}
           <div className="mb-12 sm:mb-16 flex flex-col items-center">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full flex items-center justify-center font-bold text-xl sm:text-2xl" style={{ backgroundColor: '#1565C0' }}>
+            {/* Logo in one row */}
+            <div className="flex items-center gap-3 mb-8">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center font-bold text-lg sm:text-xl flex-shrink-0" style={{ backgroundColor: '#1565C0' }}>
                 BS
               </div>
-              <div>
-                <div className="font-bold text-lg sm:text-xl">BrainStream</div>
-                <div className="text-white/80 text-xs sm:text-sm">360°</div>
+              <div className="flex flex-col">
+                <div className="font-bold text-lg sm:text-xl leading-tight">BrainStream</div>
+                <div className="text-white/80 text-xs sm:text-sm leading-tight">360°</div>
               </div>
             </div>
 
@@ -32,18 +34,19 @@ export default function Landing({ onNavigate }) {
           </div>
 
           {/* CTA Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
             {/* Ankieta Card */}
             <button
               onClick={() => onNavigate('survey')}
-              className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all text-left group"
+              className="rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all text-left"
+              style={{ backgroundColor: 'white', color: '#333' }}
             >
-              <div className="flex items-start justify-between mb-4">
-                <div className="w-12 h-12 rounded-lg flex items-center justify-center" style={{ backgroundColor: '#E8F5E9' }}>
+              <div className="mb-4">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#E8F5E9' }}>
                   <ClipboardList size={24} style={{ color: '#2E7D32' }} />
                 </div>
               </div>
-              <h2 className="text-lg font-bold text-gray-800 mb-2">
+              <h2 className="text-lg font-bold mb-2">
                 Wypełnij ankietę
               </h2>
               <p className="text-sm text-gray-600 mb-4">
@@ -56,18 +59,16 @@ export default function Landing({ onNavigate }) {
 
             {/* Raport Card */}
             <button
-              onClick={() => {
-                // Demo: pokaż przykładowy raport
-                onNavigate('report')
-              }}
-              className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all text-left group"
+              onClick={() => onNavigate('report')}
+              className="rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all text-left"
+              style={{ backgroundColor: 'white', color: '#333' }}
             >
-              <div className="flex items-start justify-between mb-4">
-                <div className="w-12 h-12 rounded-lg flex items-center justify-center" style={{ backgroundColor: '#E3F2FD' }}>
+              <div className="mb-4">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#E3F2FD' }}>
                   <BarChart3 size={24} style={{ color: '#1565C0' }} />
                 </div>
               </div>
-              <h2 className="text-lg font-bold text-gray-800 mb-2">
+              <h2 className="text-lg font-bold mb-2">
                 Zobacz raport demo
               </h2>
               <p className="text-sm text-gray-600 mb-4">
@@ -81,14 +82,15 @@ export default function Landing({ onNavigate }) {
             {/* Admin Card */}
             <button
               onClick={() => onNavigate('admin')}
-              className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all text-left group"
+              className="rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all text-left"
+              style={{ backgroundColor: 'white', color: '#333' }}
             >
-              <div className="flex items-start justify-between mb-4">
-                <div className="w-12 h-12 rounded-lg flex items-center justify-center" style={{ backgroundColor: '#F3E5F5' }}>
+              <div className="mb-4">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#F3E5F5' }}>
                   <Settings size={24} style={{ color: '#7B1FA2' }} />
                 </div>
               </div>
-              <h2 className="text-lg font-bold text-gray-800 mb-2">
+              <h2 className="text-lg font-bold mb-2">
                 Panel administracyjny
               </h2>
               <p className="text-sm text-gray-600 mb-4">
@@ -101,7 +103,7 @@ export default function Landing({ onNavigate }) {
           </div>
 
           {/* Info Box */}
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 mb-8">
+          <div className="rounded-xl p-6 mb-8" style={{ backgroundColor: 'rgba(255,255,255,0.1)', backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.2)' }}>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center text-sm">
               <div>
                 <div className="font-bold text-lg">26</div>
@@ -125,11 +127,11 @@ export default function Landing({ onNavigate }) {
       </div>
 
       {/* Footer */}
-      <div className="border-t border-white/20 px-4 py-6 text-center">
-        <p className="text-sm text-white/60">
+      <div className="border-t px-4 py-6 text-center" style={{ borderColor: 'rgba(255,255,255,0.2)' }}>
+        <p className="text-sm" style={{ color: 'rgba(255,255,255,0.6)' }}>
           BrainStream 360° Demo | SUUS Röhlig Logistics
         </p>
-        <p className="text-xs text-white/40 mt-2">
+        <p className="text-xs mt-2" style={{ color: 'rgba(255,255,255,0.4)' }}>
           Badanie anonimowe · wersja demonstracyjna
         </p>
       </div>
