@@ -22,13 +22,20 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-white">
-      {page === 'landing' && <Landing onNavigate={setPage} />}
+      {page === 'landing' && (
+        <Landing onNavigate={(newPage) => {
+          setPage(newPage)
+          if (newPage === 'survey') setFullReportMode(false)
+        }} />
+      )}
       {page === 'survey' && <Survey onSubmit={handleSurveySubmit} onBack={() => setPage('landing')} />}
       {page === 'admin' && <AdminWizard onBack={() => setPage('landing')} />}
-      {page === 'report' && fullReportMode ? (
-        <FullReport data={surveyData} onBack={() => { setPage('landing'); setFullReportMode(false); }} />
-      ) : (
-        <Report data={surveyData} onBack={() => setPage('landing')} onViewFull={handleViewFullReport} />
+      {page === 'report' && (
+        fullReportMode ? (
+          <FullReport data={surveyData} onBack={() => { setPage('landing'); setFullReportMode(false); }} />
+        ) : (
+          <Report data={surveyData} onBack={() => setPage('landing')} onViewFull={handleViewFullReport} />
+        )
       )}
     </div>
   )
